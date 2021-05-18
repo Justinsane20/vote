@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-public class SC extends AppCompatActivity {
+public class Fine extends AppCompatActivity {
     RadioGroup rg;
     RadioButton btnst1;
     RadioButton btnst2;

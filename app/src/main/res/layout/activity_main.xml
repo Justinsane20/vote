@@ -26,4 +26,57 @@
         android:layout_centerInParent="true"
         android:text="STUDENT COORDINATOR" />
 
+1
+
+    <Button
+        android:id="@+id/pr"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sc"
+        android:layout_centerInParent="true"
+        android:text="PUBLIC RELATIONS" />
+
+    <Button
+        android:id="@+id/tech"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pr"
+        android:layout_centerInParent="true"
+    android:text="TECH HEAD" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tech"
+        android:layout_centerInParent="true"
+        android:text="LOGISTICS" />
+    <Button
+        android:id="@+id/finearts"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pr"
+        android:layout_centerInParent="true"
+        android:text="FINE ARTS" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LET THE VOTING BEGIN!" />
+
+    <Button
+        android:id="@+id/technical"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/log"
+        android:layout_centerInParent="true"
+        android:text="TECHNICAL" />
+
+
 </RelativeLayout>

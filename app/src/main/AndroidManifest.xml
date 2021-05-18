@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VOTE">
-        <activity android:name=".SC"></activity>
+        <activity android:name=".Fine"></activity>
+        <activity android:name=".tech" />
+        <activity android:name=".log" />
+        <activity android:name=".pr" />
+        <activity android:name=".SC" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
